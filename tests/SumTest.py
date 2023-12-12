@@ -9,4 +9,4 @@ class SumTest(unittest.TestCase):
         self.assertEqual(sum([-1, -2]), -3)
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(module="SumTest")

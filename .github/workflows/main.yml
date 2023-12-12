@@ -14,4 +14,4 @@ jobs:
         uses: actions/checkout@v4.1.1
 
       - name: run unit test
-        run: python -m unittest SumTest.py
+        run: python -m unittest tests/SumTest.py
