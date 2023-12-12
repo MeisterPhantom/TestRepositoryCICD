@@ -1,0 +1,14 @@
+name: PR check convention
+
+on:
+  pull_request:
+    types: ['opened', 'edited', 'reopened', 'synchronize']
+
+jobs:
+  pr-lint:
+    runs-on: ubuntu-lastest
+    steps:
+    - uses: vijaykramesh/pr-lint-action@v2.3
+      with:
+        title-regex: '^TAU-\d+\s.+'
+        error-message: 'Add Ticket ID to your title e.g. "TAU-1"' 
