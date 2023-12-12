@@ -1,2 +1,2 @@
 # TestRepositoryCICD
-Repositorio para probar flujos de CI/CD
+Repositorio para probar flujos de CI/CD.
